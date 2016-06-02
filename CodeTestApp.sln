@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTestApp", "TestConsoleApp\CodeTestApp.csproj", "{8BF952A0-8636-4F48-B805-C67ACB094682}"
+EndProject
+Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BF952A0-8636-4F48-B805-C67ACB094682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF952A0-8636-4F48-B805-C67ACB094682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF952A0-8636-4F48-B805-C67ACB094682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF952A0-8636-4F48-B805-C67ACB094682}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = abc9216b-761a-4120-826f-8044c0252572
+	EndGlobalSection
+EndGlobal
