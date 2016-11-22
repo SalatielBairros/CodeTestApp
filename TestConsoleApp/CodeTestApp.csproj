@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -63,14 +64,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cryptography\RSA.cs" />
     <Compile Include="Files\FileAccess.cs" />
+    <Compile Include="Interfaces\BaseClass.cs" />
+    <Compile Include="Interfaces\ComplementClass.cs" />
+    <Compile Include="Interfaces\IBaseProps.cs" />
     <Compile Include="Language\AsyncTest.cs" />
+    <Compile Include="Language\BaseClassOverload.cs" />
     <Compile Include="Language\DateTimeTest.cs" />
     <Compile Include="Language\Division.cs" />
     <Compile Include="Language\EnumTest.cs" />
     <Compile Include="Language\FloatPointTest.cs" />
     <Compile Include="Language\FunctionProgramming.cs" />
     <Compile Include="Language\InterfaceInheritanceTest.cs" />
+    <Compile Include="Language\KeyValuePairTest.cs" />
     <Compile Include="Language\MaxValuesTest.cs" />
     <Compile Include="Language\OverloadTest.cs" />
     <Compile Include="Pratices\EndOfTheDay.cs" />

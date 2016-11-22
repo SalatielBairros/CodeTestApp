@@ -1,4 +1,5 @@
-﻿using CodeTestApp.Language;
+﻿using System;
+using CodeTestApp.Cryptography;
 
 namespace CodeTestApp
 {
@@ -6,7 +7,8 @@ namespace CodeTestApp
     {
         private static void Main(string[] args)
         {
-            OverloadTest.Execute();
+            RSA.Execute("It is a sample text.");
+            Console.ReadKey();
         }
     }
 }
