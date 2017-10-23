@@ -53,9 +53,16 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.1\lib\BouncyCastle.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,8 +71,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cryptography\CustomCryp.cs" />
     <Compile Include="Cryptography\RSA.cs" />
+    <Compile Include="Exceptions\IOExceptionTest.cs" />
     <Compile Include="Files\FileAccess.cs" />
+    <Compile Include="GPS\GPSCoordinates.cs" />
+    <Compile Include="GPS\GPSHelper.cs" />
     <Compile Include="Interfaces\BaseClass.cs" />
     <Compile Include="Interfaces\ComplementClass.cs" />
     <Compile Include="Interfaces\IBaseProps.cs" />
@@ -80,6 +91,8 @@
     <Compile Include="Language\KeyValuePairTest.cs" />
     <Compile Include="Language\MaxValuesTest.cs" />
     <Compile Include="Language\OverloadTest.cs" />
+    <Compile Include="Language\TextTest.cs" />
+    <Compile Include="Mail\MailService.cs" />
     <Compile Include="Pratices\EndOfTheDay.cs" />
     <Compile Include="Pratices\PraticesExample.cs" />
     <Compile Include="Files\XmlTest.cs" />
@@ -91,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

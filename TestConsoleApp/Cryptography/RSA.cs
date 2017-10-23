@@ -7,7 +7,7 @@ namespace CodeTestApp.Cryptography
 {
     internal class RSA
     {
-        private static UnicodeEncoding ByteConverter => new UnicodeEncoding();
+        private static UTF8Encoding ByteConverter => new UTF8Encoding();
 
         private static byte[] RSAOperationExecute(byte[] data, RSAParameters keyInfo, RSAOperation op, bool padding = false)
         {
@@ -57,6 +57,9 @@ namespace CodeTestApp.Cryptography
                 Console.WriteLine();
                 Console.WriteLine("Texto Criptografado:");
                 Console.WriteLine(Encoding.Default.GetString(encryptedData));
+                Console.WriteLine();
+                Console.WriteLine("Texto Criptografado com hash:");
+                Console.WriteLine(CustomCryp.CreateHash(encryptedData));
                 Console.WriteLine();
                 Console.WriteLine("Texto Descriptografado:");
                 Console.WriteLine(ByteConverter.GetString(decryptedData));

@@ -1,5 +1,5 @@
 ﻿using System;
-using CodeTestApp.Cryptography;
+using CodeTestApp.Mail;
 
 namespace CodeTestApp
 {
@@ -7,7 +7,7 @@ namespace CodeTestApp
     {
         private static void Main(string[] args)
         {
-            RSA.Execute("It is a sample text.");
+            MailService.SendTestEmail();
             Console.ReadKey();
         }
     }

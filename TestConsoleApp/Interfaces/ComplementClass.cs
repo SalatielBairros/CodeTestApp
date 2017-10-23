@@ -1,6 +1,6 @@
 ﻿namespace CodeTestApp.Interfaces
 {
-    public partial class BaseClassPartialTests : IBaseProps
+    public partial class BaseClassPartialTests
     {
         public BaseClassPartialTests()
         {
