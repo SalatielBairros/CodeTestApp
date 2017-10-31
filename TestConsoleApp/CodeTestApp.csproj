@@ -77,6 +77,10 @@
     <Compile Include="Files\FileAccess.cs" />
     <Compile Include="GPS\GPSCoordinates.cs" />
     <Compile Include="GPS\GPSHelper.cs" />
+    <Compile Include="Inheritance\Additional.cs" />
+    <Compile Include="Inheritance\Base.cs" />
+    <Compile Include="Inheritance\InheritanceExecution.cs" />
+    <Compile Include="Inheritance\InheritanceMethods.cs" />
     <Compile Include="Interfaces\BaseClass.cs" />
     <Compile Include="Interfaces\ComplementClass.cs" />
     <Compile Include="Interfaces\IBaseProps.cs" />

@@ -1,5 +1,5 @@
-﻿using System;
-using CodeTestApp.Mail;
+﻿using CodeTestApp.Inheritance;
+using System;
 
 namespace CodeTestApp
 {
@@ -7,7 +7,7 @@ namespace CodeTestApp
     {
         private static void Main(string[] args)
         {
-            MailService.SendTestEmail();
+            InheritanceExecution.Execute();
             Console.ReadKey();
         }
     }
