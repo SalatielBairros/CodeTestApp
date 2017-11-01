@@ -1,4 +1,4 @@
-﻿using CodeTestApp.Inheritance;
+﻿using CodeTestApp.Interfaces.SegregationPrinciple;
 using System;
 
 namespace CodeTestApp
@@ -7,7 +7,7 @@ namespace CodeTestApp
     {
         private static void Main(string[] args)
         {
-            InheritanceExecution.Execute();
+            SegregationPrincipleExecute.Execute();
             Console.ReadKey();
         }
     }
