@@ -1,4 +1,4 @@
-﻿using CodeTestApp.Interfaces.SegregationPrinciple;
+﻿using CodeTestApp.Pratices.CodeBuilder;
 using System;
 
 namespace CodeTestApp
@@ -7,7 +7,7 @@ namespace CodeTestApp
     {
         private static void Main(string[] args)
         {
-            SegregationPrincipleExecute.Execute();
+            CodeBuilderExecute.Execute();
             Console.ReadKey();
         }
     }

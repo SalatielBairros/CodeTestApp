@@ -58,6 +58,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
@@ -110,6 +111,18 @@
     <Compile Include="Language\OverloadTest.cs" />
     <Compile Include="Language\TextTest.cs" />
     <Compile Include="Mail\MailService.cs" />
+    <Compile Include="Pratices\BuilderCreational\BuilderCreationalExecute.cs" />
+    <Compile Include="Pratices\BuilderCreational\HtmlBuilder.cs" />
+    <Compile Include="Pratices\BuilderCreational\HtmlElement.cs" />
+    <Compile Include="Pratices\BuilderFacets\FacetsExecute.cs" />
+    <Compile Include="Pratices\BuilderFacets\Person.cs" />
+    <Compile Include="Pratices\BuilderFacets\PersonAddressBuilder.cs" />
+    <Compile Include="Pratices\BuilderFacets\PersonBuilder.cs" />
+    <Compile Include="Pratices\BuilderFacets\PersonJobBuilder.cs" />
+    <Compile Include="Pratices\CodeBuilder\ClassProperties.cs" />
+    <Compile Include="Pratices\CodeBuilder\CodeBuilder.cs" />
+    <Compile Include="Pratices\CodeBuilder\CodeBuilderExecute.cs" />
+    <Compile Include="Pratices\CodeBuilder\CodeClass.cs" />
     <Compile Include="Pratices\EndOfTheDay.cs" />
     <Compile Include="Pratices\PraticesExample.cs" />
     <Compile Include="Files\XmlTest.cs" />
