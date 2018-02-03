@@ -10,6 +10,6 @@
             Type = type;
         }
 
-        public override string ToString() => string.Format("public {0} {1};", Type, Name);
+        public override string ToString() => $"public {Type} {Name};";
     }
 }

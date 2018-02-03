@@ -111,6 +111,14 @@
     <Compile Include="Language\OverloadTest.cs" />
     <Compile Include="Language\TextTest.cs" />
     <Compile Include="Mail\MailService.cs" />
+    <Compile Include="Pratices\AbstracFactory\AbstractFactoryExecute.cs" />
+    <Compile Include="Pratices\AbstracFactory\Coffee.cs" />
+    <Compile Include="Pratices\AbstracFactory\CoffeeFactory.cs" />
+    <Compile Include="Pratices\AbstracFactory\HotDrinkMachine.cs" />
+    <Compile Include="Pratices\AbstracFactory\IHotDrink.cs" />
+    <Compile Include="Pratices\AbstracFactory\IHotDrinkFactory.cs" />
+    <Compile Include="Pratices\AbstracFactory\Tea.cs" />
+    <Compile Include="Pratices\AbstracFactory\TeaFactory.cs" />
     <Compile Include="Pratices\BuilderCreational\BuilderCreationalExecute.cs" />
     <Compile Include="Pratices\BuilderCreational\HtmlBuilder.cs" />
     <Compile Include="Pratices\BuilderCreational\HtmlElement.cs" />
@@ -136,6 +144,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
