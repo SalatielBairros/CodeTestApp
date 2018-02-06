@@ -1,4 +1,4 @@
-﻿using CodeTestApp.Pratices.CodeBuilder;
+﻿using CodeTestApp.Tuples;
 using System;
 
 namespace CodeTestApp
@@ -7,7 +7,7 @@ namespace CodeTestApp
     {
         private static void Main(string[] args)
         {
-            CodeBuilderExecute.Execute();
+            TuplesMethodsTests.Execute();
             Console.ReadKey();
         }
     }

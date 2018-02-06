@@ -64,6 +64,9 @@
     <Reference Include="System.Numerics" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -110,7 +113,6 @@
     <Compile Include="Language\MaxValuesTest.cs" />
     <Compile Include="Language\OverloadTest.cs" />
     <Compile Include="Language\TextTest.cs" />
-    <Compile Include="Mail\MailService.cs" />
     <Compile Include="Pratices\AbstracFactory\AbstractFactoryExecute.cs" />
     <Compile Include="Pratices\AbstracFactory\Coffee.cs" />
     <Compile Include="Pratices\AbstracFactory\CoffeeFactory.cs" />
@@ -135,6 +137,7 @@
     <Compile Include="Pratices\PraticesExample.cs" />
     <Compile Include="Files\XmlTest.cs" />
     <Compile Include="Pratices\StrategiPattern.cs" />
+    <Compile Include="Tuples\TuplesMethodsTests.cs" />
     <Compile Include="YieldTest\DataTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
