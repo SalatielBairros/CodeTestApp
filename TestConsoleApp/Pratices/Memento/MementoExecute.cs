@@ -13,7 +13,7 @@ namespace CodeTestApp.Pratices.Memento
       Console.WriteLine();
 
       //Realizando alterações nos dados do objeto novo
-      exampleClass1.Date = DateTime.Now.AddDays(10);
+      exampleClass1.Date = new DateTime(1995, 10, 10);
       exampleClass1.Code = "SALATIEL";
       Console.WriteLine("EDITED CLASS");
       Console.WriteLine(exampleClass1);
@@ -26,7 +26,7 @@ namespace CodeTestApp.Pratices.Memento
       Console.WriteLine();
 
       //Mesmo tentando editar os seus valores, ela não deve editar
-      exampleClass1.Old.Date = DateTime.Now.AddDays(5);
+      exampleClass1.Old.Date = new DateTime(1999, 2, 5);
       exampleClass1.Old.Code = "BAIRROS";
       Console.WriteLine("EDITED OLD CLASS");
       Console.WriteLine(exampleClass1.Old);

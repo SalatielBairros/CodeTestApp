@@ -25,7 +25,13 @@ namespace CodeTestApp.Pratices.Memento
     public DateTime Date { get; set; }
     public string Code { get; set; }
 
-    public object Clone() => new ObjectExampleClass(this);
+    //public object Clone() => new ObjectExampleClass(this);
+
+    /// <summary>
+    /// Para casos onde apenas ValueTypes forem ser usados (int, string, long, etc) ou classes como DateTime, é possível utilizar o MemberwiseClone().
+    /// </summary>
+    /// <returns></returns>
+    public object Clone() => this.MemberwiseClone();
 
     /// <summary>
     /// Sobrescrevendo o método para facilitar a exibição no exemplo, apenas.
