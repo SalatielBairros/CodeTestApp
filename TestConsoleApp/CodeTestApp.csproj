@@ -134,6 +134,7 @@
     <Compile Include="Pratices\CodeBuilder\CodeBuilderExecute.cs" />
     <Compile Include="Pratices\CodeBuilder\CodeClass.cs" />
     <Compile Include="Pratices\EndOfTheDay.cs" />
+    <Compile Include="Pratices\Memento\Memento.cs" />
     <Compile Include="Pratices\PraticesExample.cs" />
     <Compile Include="Files\XmlTest.cs" />
     <Compile Include="Pratices\StrategiPattern.cs" />
