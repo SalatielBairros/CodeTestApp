@@ -1,14 +1,14 @@
-﻿using CodeTestApp.Tuples;
+﻿using CodeTestApp.Pratices.Memento;
 using System;
 
 namespace CodeTestApp
 {
-    internal class Program
+  internal class Program
+  {
+    private static void Main(string[] args)
     {
-        private static void Main(string[] args)
-        {
-            TuplesMethodsTests.Execute();
-            Console.ReadKey();
-        }
+      MementoExecute.Execute();
+      Console.ReadKey();
     }
+  }
 }
