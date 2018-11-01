@@ -11,13 +11,6 @@ namespace CodeTestApp.Pratices.Memento
       _memento = this;
     }
 
-    private ObjectExampleClass(ObjectExampleClass objectExampleClass)
-    {
-      Date = objectExampleClass.Date;
-      Code = objectExampleClass.Code;
-      //É possivel aqui transmitir o memento da outra.
-    }
-
     private readonly Memento<ObjectExampleClass> _memento;
 
     public ObjectExampleClass Old => _memento;
@@ -25,8 +18,7 @@ namespace CodeTestApp.Pratices.Memento
     public DateTime Date { get; set; }
     public string Code { get; set; }
 
-    //public object Clone() => new ObjectExampleClass(this);
-
+    /// <inheritdoc />
     /// <summary>
     /// Para casos onde apenas ValueTypes forem ser usados (int, string, long, etc) ou classes como DateTime, é possível utilizar o MemberwiseClone().
     /// </summary>
