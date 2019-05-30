@@ -1,5 +1,5 @@
-﻿using CodeTestApp.Pratices.Memento;
-using System;
+﻿using System;
+using CodeTestApp.Singleton;
 
 namespace CodeTestApp
 {
@@ -7,7 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      MementoExecute.Execute();
+      new SingletonExecute().Execute();
       Console.ReadKey();
     }
   }
