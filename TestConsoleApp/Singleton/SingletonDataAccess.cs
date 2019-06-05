@@ -19,8 +19,8 @@ namespace CodeTestApp.Singleton
       {
         _dataFromBase.AddRange(database.DataList);
       }
-    }
 
+    }
     public static SingletonDataAccess NormalSingleton => new SingletonDataAccess();
     private static Lazy<SingletonDataAccess> instance = new Lazy<SingletonDataAccess>(() => new SingletonDataAccess());
     public static SingletonDataAccess Instance => instance.Value;

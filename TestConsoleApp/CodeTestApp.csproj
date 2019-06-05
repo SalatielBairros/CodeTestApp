@@ -128,6 +128,7 @@
     <Compile Include="Pratices\AbstracFactory\IHotDrinkFactory.cs" />
     <Compile Include="Pratices\AbstracFactory\Tea.cs" />
     <Compile Include="Pratices\AbstracFactory\TeaFactory.cs" />
+    <Compile Include="Pratices\Bridge\BridgePatter.cs" />
     <Compile Include="Pratices\BuilderCreational\BuilderCreationalExecute.cs" />
     <Compile Include="Pratices\BuilderCreational\HtmlBuilder.cs" />
     <Compile Include="Pratices\BuilderCreational\HtmlElement.cs" />
