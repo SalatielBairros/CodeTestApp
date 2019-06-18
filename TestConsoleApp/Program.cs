@@ -1,5 +1,4 @@
 ﻿using System;
-using CodeTestApp.Singleton;
 
 namespace CodeTestApp
 {
@@ -7,7 +6,8 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      new SingletonExecute().Execute();
+      var uri = new Uri("http://google.com.br");
+      Console.WriteLine(uri);
       Console.ReadKey();
     }
   }
