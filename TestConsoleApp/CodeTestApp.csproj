@@ -143,6 +143,7 @@
     <Compile Include="Pratices\CodeBuilder\CodeClass.cs" />
     <Compile Include="Pratices\Composite\CompositePattern.cs" />
     <Compile Include="Pratices\EndOfTheDay.cs" />
+    <Compile Include="Pratices\Flyweight\Sentence.cs" />
     <Compile Include="Pratices\Memento\IMementoEntity.cs" />
     <Compile Include="Pratices\Memento\Memento.cs" />
     <Compile Include="Pratices\Memento\MementoExecute.cs" />

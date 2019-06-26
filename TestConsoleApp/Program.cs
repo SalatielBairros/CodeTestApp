@@ -1,4 +1,5 @@
 ﻿using System;
+using CodeTestApp.Pratices;
 
 namespace CodeTestApp
 {
@@ -6,8 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      var uri = new Uri("http://google.com.br");
-      Console.WriteLine(uri);
+      new SentenceExecute().Execute();
       Console.ReadKey();
     }
   }
