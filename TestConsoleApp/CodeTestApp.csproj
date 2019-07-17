@@ -119,6 +119,7 @@
     <Compile Include="Language\KeyValuePairTest.cs" />
     <Compile Include="Language\MaxValuesTest.cs" />
     <Compile Include="Language\OverloadTest.cs" />
+    <Compile Include="Language\TaskToAction.cs" />
     <Compile Include="Language\TextTest.cs" />
     <Compile Include="Pratices\AbstracFactory\AbstractFactoryExecute.cs" />
     <Compile Include="Pratices\AbstracFactory\Coffee.cs" />
@@ -137,6 +138,7 @@
     <Compile Include="Pratices\BuilderFacets\PersonAddressBuilder.cs" />
     <Compile Include="Pratices\BuilderFacets\PersonBuilder.cs" />
     <Compile Include="Pratices\BuilderFacets\PersonJobBuilder.cs" />
+    <Compile Include="Pratices\ChainOfResponsability\GameExercise.cs" />
     <Compile Include="Pratices\CodeBuilder\ClassProperties.cs" />
     <Compile Include="Pratices\CodeBuilder\CodeBuilder.cs" />
     <Compile Include="Pratices\CodeBuilder\CodeBuilderExecute.cs" />

@@ -1,5 +1,5 @@
 ﻿using System;
-using CodeTestApp.Pratices;
+using CodeTestApp.Pratices.ChainOfResponsability;
 
 namespace CodeTestApp
 {
@@ -7,7 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      new SentenceExecute().Execute();
+      new GameExercise().Execute();
       Console.ReadKey();
     }
   }
