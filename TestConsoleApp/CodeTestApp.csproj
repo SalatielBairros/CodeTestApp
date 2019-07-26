@@ -160,6 +160,7 @@
     <Compile Include="Singleton\SingletonDataAccess.cs" />
     <Compile Include="Singleton\SingletonExecute.cs" />
     <Compile Include="Tuples\TuplesMethodsTests.cs" />
+    <Compile Include="YieldTest\BinaryTreeIterator.cs" />
     <Compile Include="YieldTest\DataTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

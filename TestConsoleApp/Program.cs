@@ -1,4 +1,5 @@
 ﻿using System;
+using CodeTestApp.YieldTest;
 
 namespace CodeTestApp
 {
@@ -6,6 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
+      BinaryTreeIterator.Execute();
       Console.ReadKey();
     }
   }
