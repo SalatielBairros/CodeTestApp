@@ -148,6 +148,11 @@
     <Compile Include="Pratices\EndOfTheDay.cs" />
     <Compile Include="Pratices\Flyweight\Sentence.cs" />
     <Compile Include="Pratices\Interpreter\ExpressionProcessor.cs" />
+    <Compile Include="Pratices\Mediator.cs" />
+    <Compile Include="Pratices\Memento\DesignCourse\Memento.cs" />
+    <Compile Include="Pratices\Memento\DesignCourse\Token.cs" />
+    <Compile Include="Pratices\Memento\DesignCourse\TokenMachine.cs" />
+    <Compile Include="Pratices\Memento\DesignCourse\TokenMementoTestsExecution.cs" />
     <Compile Include="Pratices\Memento\IMementoEntity.cs" />
     <Compile Include="Pratices\Memento\Memento.cs" />
     <Compile Include="Pratices\Memento\MementoExecute.cs" />

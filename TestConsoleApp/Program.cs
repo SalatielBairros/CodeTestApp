@@ -1,5 +1,5 @@
 ﻿using System;
-using CodeTestApp.YieldTest;
+using CodeTestApp.Pratices.Memento.DesignCourse;
 
 namespace CodeTestApp
 {
@@ -7,7 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      BinaryTreeIterator.Execute();
+      TokenMementoTestsExecution.Execute();
       Console.ReadKey();
     }
   }
