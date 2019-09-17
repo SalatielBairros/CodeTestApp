@@ -118,6 +118,8 @@
     <Compile Include="Language\InterfaceInheritanceTest.cs" />
     <Compile Include="Language\KeyValuePairTest.cs" />
     <Compile Include="Language\MaxValuesTest.cs" />
+    <Compile Include="Language\NullExtension\NullExtension.cs" />
+    <Compile Include="Language\NullExtension\NullExtensionExecution.cs" />
     <Compile Include="Language\OverloadTest.cs" />
     <Compile Include="Language\TaskToAction.cs" />
     <Compile Include="Language\TextTest.cs" />
@@ -157,6 +159,7 @@
     <Compile Include="Pratices\Memento\Memento.cs" />
     <Compile Include="Pratices\Memento\MementoExecute.cs" />
     <Compile Include="Pratices\Memento\ObjectExampleClass.cs" />
+    <Compile Include="Pratices\NullObject\AccountLogNullObject.cs" />
     <Compile Include="Pratices\PraticesExample.cs" />
     <Compile Include="Files\XmlTest.cs" />
     <Compile Include="Pratices\Proxy\ProxyCodingExercise.cs" />

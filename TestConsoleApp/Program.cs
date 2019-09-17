@@ -1,5 +1,5 @@
 ﻿using System;
-using CodeTestApp.Pratices.Memento.DesignCourse;
+using CodeTestApp.Language;
 
 namespace CodeTestApp
 {
@@ -7,7 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      TokenMementoTestsExecution.Execute();
+      NullExtensionExecution.Execute();
       Console.ReadKey();
     }
   }
