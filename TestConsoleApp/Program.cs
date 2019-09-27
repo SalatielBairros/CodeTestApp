@@ -7,7 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      NullExtensionExecution.Execute();
+      MarketProgram.Execute();
       Console.ReadKey();
     }
   }

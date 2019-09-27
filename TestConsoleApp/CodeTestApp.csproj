@@ -110,6 +110,7 @@
     <Compile Include="Interfaces\SegregationPrinciple\SegregationPrincipleExecute.cs" />
     <Compile Include="Language\AsyncTest.cs" />
     <Compile Include="Language\BaseClassOverload.cs" />
+    <Compile Include="Language\BindingListImplementation.cs" />
     <Compile Include="Language\DateTimeTest.cs" />
     <Compile Include="Language\Division.cs" />
     <Compile Include="Language\EnumTest.cs" />
