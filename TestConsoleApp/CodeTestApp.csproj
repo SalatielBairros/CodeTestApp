@@ -165,6 +165,7 @@
     <Compile Include="Pratices\PraticesExample.cs" />
     <Compile Include="Files\XmlTest.cs" />
     <Compile Include="Pratices\Proxy\ProxyCodingExercise.cs" />
+    <Compile Include="Pratices\StateMachinePattern\CombinationLock.cs" />
     <Compile Include="Pratices\StrategiPattern.cs" />
     <Compile Include="Singleton\DataBase.cs" />
     <Compile Include="Singleton\SingletonDataAccess.cs" />
