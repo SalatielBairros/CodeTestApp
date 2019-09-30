@@ -161,6 +161,7 @@
     <Compile Include="Pratices\Memento\MementoExecute.cs" />
     <Compile Include="Pratices\Memento\ObjectExampleClass.cs" />
     <Compile Include="Pratices\NullObject\AccountLogNullObject.cs" />
+    <Compile Include="Pratices\ObserverPattern\RatsGame.cs" />
     <Compile Include="Pratices\PraticesExample.cs" />
     <Compile Include="Files\XmlTest.cs" />
     <Compile Include="Pratices\Proxy\ProxyCodingExercise.cs" />

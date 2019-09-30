@@ -1,5 +1,5 @@
 ﻿using System;
-using CodeTestApp.Language;
+using CodeTestApp.Pratices.ObserverPattern;
 
 namespace CodeTestApp
 {
@@ -7,7 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      MarketProgram.Execute();
+      RatsGame.Execute();
       Console.ReadKey();
     }
   }
