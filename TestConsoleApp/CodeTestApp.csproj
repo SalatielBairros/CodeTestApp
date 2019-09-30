@@ -151,7 +151,7 @@
     <Compile Include="Pratices\EndOfTheDay.cs" />
     <Compile Include="Pratices\Flyweight\Sentence.cs" />
     <Compile Include="Pratices\Interpreter\ExpressionProcessor.cs" />
-    <Compile Include="Pratices\Mediator.cs" />
+    <Compile Include="Pratices\ObserverPattern\Mediator.cs" />
     <Compile Include="Pratices\Memento\DesignCourse\Memento.cs" />
     <Compile Include="Pratices\Memento\DesignCourse\Token.cs" />
     <Compile Include="Pratices\Memento\DesignCourse\TokenMachine.cs" />
@@ -166,7 +166,8 @@
     <Compile Include="Files\XmlTest.cs" />
     <Compile Include="Pratices\Proxy\ProxyCodingExercise.cs" />
     <Compile Include="Pratices\StateMachinePattern\CombinationLock.cs" />
-    <Compile Include="Pratices\StrategiPattern.cs" />
+    <Compile Include="Pratices\Strategy\BhaskaraDiscriminantStrategy.cs" />
+    <Compile Include="Pratices\Strategy\StrategyPattern.cs" />
     <Compile Include="Singleton\DataBase.cs" />
     <Compile Include="Singleton\SingletonDataAccess.cs" />
     <Compile Include="Singleton\SingletonExecute.cs" />
