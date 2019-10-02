@@ -168,6 +168,7 @@
     <Compile Include="Pratices\StateMachinePattern\CombinationLock.cs" />
     <Compile Include="Pratices\Strategy\BhaskaraDiscriminantStrategy.cs" />
     <Compile Include="Pratices\Strategy\StrategyPattern.cs" />
+    <Compile Include="Pratices\TemplatePattern\CreatureGame.cs" />
     <Compile Include="Singleton\DataBase.cs" />
     <Compile Include="Singleton\SingletonDataAccess.cs" />
     <Compile Include="Singleton\SingletonExecute.cs" />
