@@ -84,6 +84,9 @@
   <ItemGroup>
     <Compile Include="Cryptography\CustomCryp.cs" />
     <Compile Include="Cryptography\RSA.cs" />
+    <Compile Include="Eldorado\EmailValidation.cs" />
+    <Compile Include="Eldorado\Fibonacci.cs" />
+    <Compile Include="Eldorado\MineCounter.cs" />
     <Compile Include="Exceptions\IOExceptionTest.cs" />
     <Compile Include="Files\FileAccess.cs" />
     <Compile Include="GPS\GPSCoordinates.cs" />
