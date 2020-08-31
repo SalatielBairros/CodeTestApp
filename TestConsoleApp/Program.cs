@@ -1,5 +1,5 @@
-﻿using System;
-using CodeTestApp.Pratices.ObserverPattern;
+﻿using CodeTestApp.Interfaces.TypeChange;
+using System;
 
 namespace CodeTestApp
 {
@@ -7,7 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      RatsGame.Execute();
+      TypeChangeService.Execute();
       Console.ReadKey();
     }
   }
