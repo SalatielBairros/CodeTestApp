@@ -1,4 +1,4 @@
-﻿using CodeTestApp.Interfaces.TypeChange;
+﻿using CodeTestApp.Linq.Distinct;
 using System;
 
 namespace CodeTestApp
@@ -7,7 +7,7 @@ namespace CodeTestApp
   {
     private static void Main(string[] args)
     {
-      TypeChangeService.Execute();
+      TestLinqDistinct.Execute();
       Console.ReadKey();
     }
   }

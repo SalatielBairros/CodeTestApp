@@ -82,6 +82,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbreviarPalavra\AbreviaPalavra.cs" />
+    <Compile Include="CharEnum\CharEnumParse.cs" />
     <Compile Include="Cryptography\CustomCryp.cs" />
     <Compile Include="Cryptography\RSA.cs" />
     <Compile Include="Eldorado\EmailValidation.cs" />
@@ -127,8 +129,10 @@
     <Compile Include="Language\NullExtension\NullExtension.cs" />
     <Compile Include="Language\NullExtension\NullExtensionExecution.cs" />
     <Compile Include="Language\OverloadTest.cs" />
+    <Compile Include="Language\StringSplitTest.cs" />
     <Compile Include="Language\TaskToAction.cs" />
     <Compile Include="Language\TextTest.cs" />
+    <Compile Include="Linq\Distinct\TestLinqDistinct.cs" />
     <Compile Include="Linq\GroupBy\LinqGroupByTest.cs" />
     <Compile Include="Pratices\AbstracFactory\AbstractFactoryExecute.cs" />
     <Compile Include="Pratices\AbstracFactory\Coffee.cs" />
@@ -176,6 +180,7 @@
     <Compile Include="Pratices\Strategy\StrategyPattern.cs" />
     <Compile Include="Pratices\TemplatePattern\CreatureGame.cs" />
     <Compile Include="Pratices\VisitorPattern\ExpressionVisitor.cs" />
+    <Compile Include="RegexFormat\RegexFormat.cs" />
     <Compile Include="Singleton\DataBase.cs" />
     <Compile Include="Singleton\SingletonDataAccess.cs" />
     <Compile Include="Singleton\SingletonExecute.cs" />
