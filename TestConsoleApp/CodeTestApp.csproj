@@ -134,6 +134,7 @@
     <Compile Include="Language\TextTest.cs" />
     <Compile Include="Linq\Distinct\TestLinqDistinct.cs" />
     <Compile Include="Linq\GroupBy\LinqGroupByTest.cs" />
+    <Compile Include="Params\ParamsKeyword.cs" />
     <Compile Include="Pratices\AbstracFactory\AbstractFactoryExecute.cs" />
     <Compile Include="Pratices\AbstracFactory\Coffee.cs" />
     <Compile Include="Pratices\AbstracFactory\CoffeeFactory.cs" />
