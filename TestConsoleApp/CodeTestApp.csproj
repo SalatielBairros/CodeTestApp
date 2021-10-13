@@ -134,6 +134,12 @@
     <Compile Include="Language\TextTest.cs" />
     <Compile Include="Linq\Distinct\TestLinqDistinct.cs" />
     <Compile Include="Linq\GroupBy\LinqGroupByTest.cs" />
+    <Compile Include="Linq\JoinLists\BaseClass.cs" />
+    <Compile Include="Linq\JoinLists\FirstClass.cs" />
+    <Compile Include="Linq\JoinLists\JoinListsExecute.cs" />
+    <Compile Include="Linq\JoinLists\ResultClass.cs" />
+    <Compile Include="Linq\JoinLists\SecondClass.cs" />
+    <Compile Include="MakeGeneric\MakeGenericExecute.cs" />
     <Compile Include="Params\ParamsKeyword.cs" />
     <Compile Include="Pratices\AbstracFactory\AbstractFactoryExecute.cs" />
     <Compile Include="Pratices\AbstracFactory\Coffee.cs" />

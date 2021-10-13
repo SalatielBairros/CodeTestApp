@@ -1,5 +1,4 @@
-﻿using CodeTestApp.Linq.Distinct;
-using CodeTestApp.Params;
+﻿using CodeTestApp.Linq.JoinLists;
 using System;
 
 namespace CodeTestApp
@@ -8,7 +7,7 @@ namespace CodeTestApp
     {
         private static void Main(string[] args)
         {
-            ParamsKeyword.Execute("STRING", "teste");
+            JoinListsExecute.Execute();
             Console.ReadKey();
         }
     }
